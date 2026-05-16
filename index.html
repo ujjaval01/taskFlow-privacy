@@ -422,7 +422,7 @@
           <ul class="feature-list">
             <li class="feature-item"><i class="fa-solid fa-circle-check"></i> No Registration Required</li>
             <li class="feature-item"><i class="fa-solid fa-circle-check"></i> No Email or Phone Number</li>
-            <li class="feature-item"><i class="fa-solid fa-circle-check"></i> No Tracking or Analytics</li>
+            <li class="feature-item"><i class="fa-solid fa-circle-check"></i> No Personal Tracking or Advertising Analytics</li>
             <li class="feature-item"><i class="fa-solid fa-circle-check"></i> No Third-party Scripts</li>
           </ul>
         </section>
@@ -439,15 +439,76 @@
         </section>
 
         <section class="card">
-          <div class="card-header">
-            <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
-            <h2>Connectivity</h2>
-          </div>
-          <p>
-            While the app may use internet access for periodic updates or optional synchronization, 
-            core functionality remains fully operational offline.
-          </p>
-        </section>
+  <div class="card-header">
+    <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+    <h2>Internet & Connectivity</h2>
+  </div>
+
+  <p>
+    TaskFlow uses internet connectivity to support Firebase Cloud Messaging (FCM), 
+    which enables features such as task reminders, productivity notifications, feature updates, 
+    motivational alerts, and occasional funny notifications designed to improve user engagement.
+  </p>
+
+  <ul class="feature-list">
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Push Notifications via Firebase Cloud Messaging
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Productivity & Reminder Notifications
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Funny & Motivational Notifications
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Internet permission used only for app functionality
+    </li>
+  </ul>
+</section>
+
+<section class="card">
+  <div class="card-header">
+    <div class="card-icon">
+      <i class="fa-solid fa-cloud"></i>
+    </div>
+
+    <h2>Firebase Services</h2>
+  </div>
+
+  <p>
+    TaskFlow uses Firebase Cloud Messaging (FCM), a notification service provided by Google, 
+    to securely deliver push notifications to your device.
+  </p>
+
+  <ul class="feature-list">
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      No personal tasks are shared with Firebase
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Anonymous device tokens may be used for notification delivery
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Firebase may collect limited technical diagnostics
+    </li>
+
+    <li class="feature-item">
+      <i class="fa-solid fa-circle-check"></i>
+      Notifications can be disabled anytime from device settings
+    </li>
+  </ul>
+</section>
 
         <section class="card">
           <div class="card-header">
@@ -475,7 +536,9 @@
       </div>
 
       <footer>
-        <p>&copy; 2026 Todo List App • Built with privacy at its core</p>
+        <p>
+          &copy; 2026 TaskFlow • Productivity with privacy at its core 🚀
+        </p>
       </footer>
     </div>
   </main>
